@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  --color: rgba(12, 49, 92, 0.685);
+  background-image: url("world2.jpg");
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header h1 {
+  font-size: 3.5rem;
+
+  color: var(--color);
+  margin-top: 5rem;
+  text-align: center;
+}
+.container {
+  display: none;
+}
+.container.active {
+  width: 60vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid var(--color);
+  border-radius: 5px;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(96, 85, 121, 0.438);
+}
+.btn-submit {
+  margin: 8rem;
+  padding: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  background: var(--color);
+  color: white;
+  font-weight: 500;
+  width: 30vw;
+  border-radius: 5px;
+}
+.country-details {
+  display: flex;
+  flex-direction: column;
+}
+#country-name {
+  padding: 1.5rem;
+  color: white;
+}
+
+.list-item {
+  /* list-style-type: none; */
+  text-align: left;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+#country-name {
+  font-size: 2rem;
+  padding: 2rem;
+}
