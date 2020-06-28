@@ -40,9 +40,4 @@ const container = document.querySelector(".container");
 searchInput.addEventListener("change", displayMatches);
 searchInput.addEventListener("keyup", displayMatches);
 
-// function getRandom() {
-//   let random = Math.floor(Math.random() * 100 + 1);
-//   return countries[random];
-//   console.log(countries[random]);
-// }
-// getRandom();
+
